@@ -1,2 +1,28 @@
 ---
 ---
+---
+---
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <nav>
+                <a href="{{ site.baseurl }}/">Campus</a>
+                <a href="{{ site.baseurl }}/creators">Creators</a>
+                <a href="{{ site.baseurl }}/about">About</a>
+                <a href="{{ site.baseurl }}/search">Search</a>
+            </nav>
+        </div>
+        <div id = "content">
+         {{ content }}
+        </div>
+        <div id = "footer">
+            <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for study purposes by <a href = "https://github.com/Whereismycatt">Wanchun</a> in 2022</p>
+        </div>
+    </div>
+</body>
