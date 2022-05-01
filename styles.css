@@ -51,6 +51,18 @@ a:hover {
 .grid_cell {
     align-self: baseline;
 }
+
+@media (min-width: 600px) {
+    #gallery { 
+        grid-template-columns: repeat(2, 275px); 
+    }
+  }
+
+@media (min-width: 900px) {
+    #gallery { 
+        grid-template-columns: repeat(3, 275px); 
+    }
+  }
     
 
 
