@@ -1,7 +1,21 @@
----
-title: Campus index
-layout: index
 --
+<head>
+    <meta charset="utf-8">
+    <title>Campus index</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div id = "wrapper">
+        <div id = "header">
+            <nav>
+                <a href="/">campus</a>
+                <a href="/creators">Creators</a>
+                <a href="/about">About</a>
+                <a href="/search">Search</a>
+            </nav>
+        </div>
+        <div id = "content">
+            <div id="gallery">
 
 <div id = "gallery">
   {% assign sorted_exhibits = site.exhibits | sort: "date" %}
@@ -15,3 +29,4 @@ layout: index
     </div>
   {% endfor %}
 </div>
+
