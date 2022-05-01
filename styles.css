@@ -38,6 +38,11 @@ a:hover {
     text-align: center;
 }
 
+#footer p {
+    font-size: small;
+    align-self: center;
+}
+
 #gallery {
     margin: 0 auto;
     display: grid;
@@ -60,10 +65,7 @@ a:hover {
     }
   }
 
-.gallery_thumb {
-    width: 250px;
-    object-fit: cover;
-}
+
 
 #exhibit {
     width: 300px;
