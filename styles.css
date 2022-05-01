@@ -13,6 +13,7 @@ ul {
 nav {
     font-family: Arial;
     font-size: larger;
+    text-align: center;
 }
 
 a:link {
