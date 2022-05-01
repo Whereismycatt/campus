@@ -52,15 +52,15 @@ a:hover {
     align-self: baseline;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
     #gallery { 
-        grid-template-columns: repeat(2, 275px); 
+        grid-template-columns: repeat(2, 350px); 
     }
   }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
     #gallery { 
-        grid-template-columns: repeat(3, 275px); 
+        grid-template-columns: repeat(3, 350px); 
     }
   }
 
