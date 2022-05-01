@@ -65,9 +65,7 @@ a:hover {
     }
   }
 
-#exhibit {
-    width: 500px;
-}
+
 
 @media (min-width: 500px) {
     #exhibit {
