@@ -9,6 +9,7 @@ layout: index
   {% for exhibit in sorted_exhibits %}
     {% assign licence_url = site.data.licences | find: "licence", exhibit.licence %}
     {% assign creator = site.data.creators | find: "name", exhibit.creator %}
+    {% assign image = site.data.images | find: "image", exhibit.image %}
     <div class = "grid_cell">
       <a href = "{{ exhibit.url | relative_url }}"><img src="{{ exhibit.image-url }}" width = 300 class="gallery_thumb"></a>
       <p class = "caption"><a href = "{{ exhibit.url | relative_url }}">{{ exhibit.title }}</a> by <a href = "{{ creator.homepage }}">{{ exhibit.creator }}</a></p>
