@@ -1,4 +1,56 @@
-body
+body {
+    background-color: gray;
+}
+
+p {
+    font-family: Arial;
+}
+
+ul {
+    font-family: Arial;
+}
+
+nav {
+    font-family: Arial;
+    font-size: larger;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#footer {
+    margin: auto;
+    text-align: center;
+}
+
+#footer p {
+    font-size: small;
+    align-self: center;
+}
+
+#gallery {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.grid_cell {
+    align-self: baseline;
+}
     
 
 
