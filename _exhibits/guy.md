@@ -1,6 +1,6 @@
 ---
 title: Guy's campus
-creator: KiloCharlieLima
+creator: Kilo Charlie Lima
 licence: CC BY-SA 4.0
 licence-url: https://creativecommons.org/licenses/by-sa/4.0/
 image-url: https://upload.wikimedia.org/wikipedia/commons/5/53/Hodgkin_Building_2%2C_Guy%27s_Campus.jpg
