@@ -64,11 +64,32 @@ a:hover {
     }
   }
 
-@media (min-width: 1200px) {
-    #gallery { 
-        grid-template-columns: repeat(4, 275px); 
+.gallery_thumb {
+    width: 250px;
+    object-fit: cover;
+}
+
+#exhibit {
+    width: 300px;
+}
+
+@media (min-width: 600px) {
+    #exhibit {
+        width: 550px;
     }
-  }
+}
+
+@media (min-width: 900px) {
+    #exhibit {
+        width: 850px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #exhibit {
+        width: 1150px;
+    }
+}
 
 
     
