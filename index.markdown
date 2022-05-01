@@ -8,7 +8,7 @@
     <div id = "wrapper">
         <div id = "header">
             <nav>
-                <a href="/">campus</a>
+                <a href="/">Campus</a>
                 <a href="/creators">Creators</a>
                 <a href="/about">About</a>
                 <a href="/search">Search</a>
