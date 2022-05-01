@@ -5,6 +5,7 @@
     {
 
       "title"    : "{{ exhibit.title }}",
+      "url"      : "{{ site.baseurl }}{{ exhibit.url }}",
      
 
     }{% unless forloop.last %},{% endunless %}
