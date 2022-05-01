@@ -1,7 +1,7 @@
 ---
 title: Campus 
 layout: index
---
+---
 
 
 <div id = "gallery">
