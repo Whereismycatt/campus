@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: pink;
 }
 
 p {
@@ -17,7 +17,7 @@ nav {
 }
 
 a:link {
-    color: pink;
+    color: blue;
 }
 
 a:visited {
