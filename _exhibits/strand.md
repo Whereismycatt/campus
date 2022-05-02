@@ -1,5 +1,5 @@
 ---
-title: Strand campus
+title: Strand Campus
 creator: Kilo Charlie Lima
 licence: CC BY-SA 4.0
 licence-url: https://creativecommons.org/licenses/by-sa/4.0/
